@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 80%;
+    background-color: pink !important;
+    border-color: pink !important;
+    border-radius: 50px !important;
+    letter-spacing: 2px;
+    font-size: 35px !important;
+}
+
+canvas{
+    animation-name: sillyClown;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes siliClown{
+    from{box-shadow: 1px 1px 500px rgb(230, 7, 219);}
+    to{box-shadow: 1px 1px 500px rgb(243, 2, 2);}
+}
